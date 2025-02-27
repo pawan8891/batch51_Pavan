@@ -14,12 +14,14 @@ public class driverInitializer {
 		{
 			System.setProperty(reusableData.chromeDriverType,reusableData.chromeDriverPath);
 			driver=new ChromeDriver();
+			driver.manage().window().maximize();
 			driver.get(reusableData.url);
 		}
 		else if(reusableData.browserCategory.equals("edge"))
 		{
 			System.setProperty(reusableData.edgeDriverType,reusableData.edgeDriverPath);
 			driver=new EdgeDriver();
+			driver.manage().window().maximize();
 			driver.get(url);
 		}
 		else {

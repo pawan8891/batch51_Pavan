@@ -1,6 +1,6 @@
 package TestCases;
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -21,7 +21,7 @@ public class com_testcase_registerpage {
 	}
 	
 	@Test
-	public void enterContactInformation() throws FileNotFoundException
+	public void enterContactInformation() throws IOException
 	{
 		driverInitializer.driver.findElement(By.xpath(readDataFromPropertiesFiles.readDataFromORProperties(reusableData.registerORPath,"Register.ContactInformation.FirstName.input"))).sendKeys("Pavan");
 		driverInitializer.driver.findElement(By.xpath(readDataFromPropertiesFiles.readDataFromORProperties(reusableData.registerORPath,"Register.ContactInformation.LastName.input"))).sendKeys("Goswami");
