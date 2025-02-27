@@ -7,7 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import reusableData.reusableData;
 
 public class driverInitializer {
-	static WebDriver driver;
+	public static WebDriver driver;
 	public static void launchDriver(String url)
 	{
 		if(reusableData.browserCategory.equals("chrome"))

@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-16T22:18:02 IST" name="Default suite" finished-at="2025-02-16T22:18:18 IST" duration-ms="15494">
+  <suite started-at="2025-02-27T19:18:49 IST" name="Default suite" finished-at="2025-02-27T19:18:57 IST" duration-ms="7389">
     <groups>
     </groups>
-    <test started-at="2025-02-16T22:18:02 IST" name="Default test" finished-at="2025-02-16T22:18:18 IST" duration-ms="15494">
-      <class name="TestCases.testCase1_CreateUser">
-        <test-method signature="enterContactInformation()[pri:0, instance:TestCases.testCase1_CreateUser@6743e411]" started-at="2025-02-16T22:18:02 IST" name="enterContactInformation" finished-at="2025-02-16T22:18:18 IST" duration-ms="15299" status="PASS">
+    <test started-at="2025-02-27T19:18:49 IST" name="Default test" finished-at="2025-02-27T19:18:57 IST" duration-ms="7389">
+      <class name="TestCases.com_testcase_registerpage">
+        <test-method is-config="true" signature="resgiterPage_Navigation()[pri:0, instance:TestCases.com_testcase_registerpage@77f1baf5]" started-at="2025-02-27T19:18:49 IST" name="resgiterPage_Navigation" finished-at="2025-02-27T19:18:56 IST" duration-ms="7152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resgiterPage_Navigation -->
+        <test-method signature="enterContactInformation()[pri:0, instance:TestCases.com_testcase_registerpage@77f1baf5]" started-at="2025-02-27T19:18:56 IST" name="enterContactInformation" finished-at="2025-02-27T19:18:57 IST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterContactInformation -->
-      </class> <!-- TestCases.testCase1_CreateUser -->
+      </class> <!-- TestCases.com_testcase_registerpage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
