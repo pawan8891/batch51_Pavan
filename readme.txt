@@ -1,0 +1,2 @@
+Framework configurations
+https://demo.guru99.com/test/newtours/register.php
