@@ -9,4 +9,5 @@ public interface reusableData {
 	public static String edgeDriverType="webdriver.edge.driver";
 	public static String edgeDriverPath="C:\\Users\\Dell\\eclipse-workspace\\RMG\\RMGBatch51SelJava_E2E\\driverDetails\\msedgedriver.exe";
 	public static String registerORPath="\\ObjectRepository\\registerOR.properties";
+	public static String excelDataPath="\\src\\test\\resources\\ResgisterInformation_testData.xlsx";
 }
