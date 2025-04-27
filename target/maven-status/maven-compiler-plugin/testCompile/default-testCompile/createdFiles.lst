@@ -1,0 +1,14 @@
+TestCases\com_testcase_datatble.class
+TestCases\com_testcase_download_upload.class
+TestCases\com_testcase_mousehover.class
+TestCases\com_testcase_registerpage.class
+TestCases\com_testcase_staleelementException.class
+TestCases\com_testcase_verifyAlert.class
+TestCases\com_testcase_brokenlink.class
+TestCases\com_testcase_calender.class
+TestCases\com_testcase_pagination.class
+API_TestCases\com_API_testcase_createUser.class
+TestCases\com_testcase_verifyframe.class
+API_TestCases\PostReq.class
+TestCases\com_testcase_switchgToWindow.class
+TestCases\com_testcase_wait.class

@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.com_testcase_registerpage">
+      <class name="Interview.com_testcase_makemytrip">
         <methods>
+          <include name="registerPageNavigation"/>
           <include name="enterContactInformation"/>
-          <include name="resgiterPage_Navigation"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- TestCases.com_testcase_registerpage -->
+      </class> <!-- Interview.com_testcase_makemytrip -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
